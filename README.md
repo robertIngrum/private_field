@@ -4,7 +4,7 @@ Make Rails fields private to avoid those lazy temptations.
 ## Background
 It's easy to fall into the temptation of modifying model fields in random places (like your views),
 but this just makes the world worse.  In most cases, it's a better idea to define a method within 
-your model or a service class that's responsible for handling all of your data manipulation.
+your model or service class that's responsible for handling all of your data manipulation.
 
 This gem enforces that rule by allowing for private field definitions.
 
